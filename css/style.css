@@ -1,0 +1,162 @@
+body {
+/*    background-color: #3997d3;*/
+    background-image: url(../images/stadium.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    color: #fec015;
+    transition: all .75s;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Chargers;
+    src: url(../fonts/Chargers.ttf);
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-family: Chargers, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+header {
+    text-align: center;
+    padding: 25px;
+}
+
+footer {
+    background-color: #3997d3;
+    margin-top: 50px;
+}
+
+input {
+    margin-top: 15px;
+    color: #00295b;
+}
+
+.form-control {
+    border: none;
+    padding: 20px;
+    font-size: 1.25em;
+}
+
+#add {
+    background-color: #fff;
+    background-color: #00295b;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+button {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.add-player {
+    background-color: #3997d3 !important;
+    color: #fff !important;
+}
+
+.delete-player {
+    background-color: #ee1010 !important;
+    color: #fff !important;
+}
+
+.btn-default {
+    background-color: #3997d3;
+    padding: 15px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25em;
+    transition: all .75s;
+}
+
+.btn-default:hover, .btn-default:active, .btn-default:focus {
+    background-color: #f0c818;
+    transition: all .75s;
+}
+
+
+.player-added {
+    margin-top: 25px;
+}
+
+.player-added p {
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+a:hover {
+    -webkit-filter: brightness(125%);
+    filter: brightness(125%);
+    transition: all .75s;
+}
+
+/* ********** TABLES ********** */
+
+table {
+    display: table;
+    color: #00295b;
+    background-color: #fffdf7;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    font-weight: bold;
+}
+
+table thead th,
+table tbody td,
+table tr td {
+    display: table-cell;
+    padding: 5px;
+    vertical-align: center;
+    text-align: center;
+    border: 1px solid rgba(189, 189, 189, .2);
+}
+
+table thead {
+    background-color: #00295b;
+    color: #fff;
+}
+table thead tr th {
+    height: 2em;
+}
+
+td, th {
+    text-align: left !important;
+}
+
+td:first-of-type, th:first-of-type {
+    text-align: center !important;
+}
+
+th {
+    color: #f0c818;
+}
+
+th:hover {
+    cursor: pointer;
+}
+
+
+/* ----- STRIPED TABLES (NON-Responsive) ----- */
+
+.striped-table-odd tbody tr:nth-of-type(odd) {
+    background-color: #eaf8fe;
+    color: #00295b;
+}
